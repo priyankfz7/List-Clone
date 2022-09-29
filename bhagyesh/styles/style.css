@@ -1,0 +1,28 @@
+/************** navbar ****************/
+#navbar{
+    border:1px solid;
+}
+
+#up_nav{
+    border:1px solid;
+    display:flex;
+    gap:15px;
+    justify-content: end;
+    padding-right: 20px;
+    align-items: center;
+}
+#in_nav{
+    height:40 px;
+    border:1px solid;
+    display:flex;
+    gap:15px;
+    justify-content:space-between;
+    align-items: center;
+}
+ #in_nav>:first-child{
+    width:30%;
+    display:flex;
+    gap:20px;
+   align-items: center;
+ }
+
