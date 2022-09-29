@@ -1,28 +1,122 @@
 /************** navbar ****************/
-#navbar{
-    border:1px solid;
-}
-
-#up_nav{
-    border:1px solid;
-    display:flex;
-    gap:15px;
+#navbar_top{
+   
+    display: flex;
     justify-content: end;
-    padding-right: 20px;
     align-items: center;
+    border: 0px solid red;
+    font-family: sans-serif;
+    font-size: 15px;
+    gap: 1vw;
+    margin-right: 2vw;
+    margin-top: 10px;
+
+   
 }
-#in_nav{
-    height:40 px;
+#navbar_top>div{
+ cursor: pointer;
+}
+#navbar_top>div:nth-child(4) a{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#navbar_top>div:nth-child(4) {
+  padding-left: 10px;
+}
+#navbar_top a{
+  text-decoration: none;
+  color: black;
+
+}
+
+#navbar_top a:hover{
+  text-decoration: underline;
+
+}
+#main_nav{
+    display: flex;
+    width: 100%;
+    border: 0px solid red;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#logo{
+    display: flex;
+    border: 0px solid rgb(0, 78, 39);
+    width: 22%;
+    font-family: sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#logo a{
+    text-decoration: none;
+    color: black;
+}
+#logo img{
+    
+   width: 100px;
+   height: 35px;
+
+}
+#search{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(8, 7, 7);
+    height: 40px;
+    width: 78%;
+    margin-right: 2%;
+   
+}
+#search input{
+    width: 95%;
+    height: 90%;
+    border: none;
+    margin-right: 3%;
+    
+}
+#search input:focus{
+ outline: none;
+    
+}
+#search_button{
+    height: 70%;
+    margin-right: 0.7%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#tab_div{
     border:1px solid;
     display:flex;
     gap:15px;
-    justify-content:space-between;
-    align-items: center;
+    padding-left: 20px;
 }
- #in_nav>:first-child{
-    width:30%;
+#tab_div p{
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  #tab_div p:hover{
+    text-decoration: underline;
+  }
+  #main{
+    width:100%;
     display:flex;
-    gap:20px;
-   align-items: center;
- }
+    margin:auto;
+  }
+  #sidebar{
+    width:auto;
+    border-right:1px solid;
+    padding: 0 70px 0px 20px ;
+    margin-top: 15px;
 
+  }
+  #sidebar p:hover{
+    text-decoration: underline;
+  }
+ 
