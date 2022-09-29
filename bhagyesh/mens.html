@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lyst/mens_pg</title>
+    <link rel="stylesheet" href="./styles/style.css"/>
 </head>
-<body>
+<body onload="clothing()">
+    <div id="navbar"></div>
+    <div id="tab_div">
+    
+            <p id="clothing" onclick="clothing()"><b>Clothing</b></a></p>
+            <p id="shoes" onclick="shoes()" ><b>Shoes</b></a></p>
+            <p id="Accessories"  onclick =accessories()><b>Accessories</b></a></p>
+            <p id="bags" onclick =bags() ><b>Bags</b></a></p>
+            <p id="jewelry" onclick =jewelry()><b>Jewelry</b></a></p>
+            <p id="brand" onclick =brands()><b>Brands</b></a></p>
+            <p id="all" onclick =all_men() ><b>All Men's</b></a></p>
+            
+    </div>
+    <div id="main">
+        <div id="sidebar"> </div>
+        <div></div>
+    </div>
     
 </body>
 </html>
+<script type="module">
+    import {navbar} from "./components/navbar.js";
+    console.log(navbar)
+    let navbar_div=document.getElementById("navbar");
+      navbar_div.innerHTML=navbar()
+
+      import {data} from "../bhagyesh/data_obj/data.js"
+</script>
+<script src="./scripts/mens.js">
+
+</script>
+   

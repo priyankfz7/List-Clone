@@ -1,7 +1,14 @@
-// function mens(){
-//     window.location.href="makeshift-protest-7826/mens.html"
-// }
+import {navbar} from"../components/navbar.js"
+console.log(navbar)
+let navbar_div=document.getElementById("navbar");
+navbar_div.innerHTML=navbar();
 
-// function womens(){
-//     window.location.href="womens.html"
-// }
+
+
+function mens(){
+    window.location.href="../mens.html"
+}
+
+function womens(){
+    window.location.href="../womens.html"
+}
