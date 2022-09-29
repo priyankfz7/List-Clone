@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Suisse Intl", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#banner img{
+    height: 520px;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+#all_category{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    margin-top: 80px;
+    margin-bottom:77px ;
+    font-family: "Suisse Intl", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#all_category a{
+  text-decoration: none;
+  color: black;
+  margin-top: 15px;
+  font-size: 14px;
+
+}
+
+#all_category a:hover{
+  text-decoration: underline;
+
+}
+.vr_title{
+    writing-mode:vertical-lr;
+    transform: rotate(180deg);
+    font-size: 32px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    border:0px solid orange;
+    
+}
+.vr_title:hover{
+    color: purple;
+}
+.cat1{
+    width: 255px;
+    height: 100%;
+    display: flex;
+  
+}
+.subcat{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+   
+}
+.subcat span{
+    margin-top: 15px;
+    font-weight: bold;
+   
+}
+.vr_title_most_wanted{
+    writing-mode:vertical-lr;
+    transform: rotate(180deg);
+    font-size: 32px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    border:0px solid orange;
+    
+}
