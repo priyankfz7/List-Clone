@@ -10,7 +10,9 @@ body{
     border-bottom: 1px solid black;
     margin-top: 10px;
 }
-
+#banner{
+  margin-bottom: 70px;
+}
 #all_category{
     display: flex;
     height: 400px;
@@ -86,6 +88,7 @@ body{
     height: 80%;
     font-size: 22px;
     margin-top: 50px;
+   
 }
 .most_wanted_row1{
     width: 90%;
@@ -93,6 +96,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    column-gap: 3%;
 }
 .most_wanted_row2{
    
@@ -101,6 +105,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    column-gap: 2%;
 }
 .most_wanted_row1>div{
     cursor: pointer;
@@ -119,13 +124,16 @@ body{
     height:520px;
     border-top: 1px solid black;
     display: flex;
+    margin-top: 40px;
   }
   #bhb_left{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 65%;
+    height: 100%;
+    background-color: #f5f4f2;
   }
   #bhb_right{
-    width: 20%;
+    width: 22%;
     background-color: rgb(202,252,79);
     
     font-size: 45px;
@@ -144,11 +152,98 @@ body{
    background-color: #c9bffb;
   }
   #bhb_third{
-    width: 10%;
+    width: 13%;
     background-color: rgb(202,252,79);
   }
   #bhb_left>div{
     height: 428px;
-    border: 1px solid red;
     margin-left: 10%;
+    margin-top: 30px;
+    display: flex;
+    font-family: "Suisse Intl", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   }
+  .bigtext{
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 0px;
+  }
+  .big_title{
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .small_descriptio{
+    font-size: 14px;
+  }
+.biggest_hottest{
+  width: 33%;
+  
+  padding: 10px;
+
+}
+/* carazol 1 & 2 */
+
+.item img{
+  height: 300px;
+  
+  width: 305px;
+  margin-bottom: -4px;
+ 
+}
+
+
+@supports(display: flex) {
+
+.flex-container {
+  display: flex;
+}
+
+ .main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* border: 2px solid orange;
+ padding-bottom: -19px; */
+}
+ 
+.items {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  border: 1px solid black;
+ 
+
+  
+}
+.item {
+  height:300px ;
+  width: 400px;
+  display: inline-block;
+  min-height: 300px;
+  min-width: 400px;
+  border-left: 1px solid black;
+  margin: -2px;
+ 
+}
+}
+
+.om{
+display: flex;
+/* border:2px solid blue; */
+margin-bottom: -4px;
+}
+.jmd{
+
+  writing-mode:vertical-lr;
+  transform: rotate(180deg);
+  font-size: 23px;
+  width: 95px;
+  height: 290px;
+  display: flex;
+
+
+}
+/* ************* */
