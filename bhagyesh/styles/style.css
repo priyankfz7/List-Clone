@@ -1,4 +1,8 @@
 /************** navbar ****************/
+body{
+  padding:0px;
+  margin:0px;
+}
 #navbar_top{
    
     display: flex;
