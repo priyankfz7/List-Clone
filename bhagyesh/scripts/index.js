@@ -6,7 +6,7 @@ navbar_div.innerHTML=navbar();
 
 
 function mens(){
-    window.location.href="../mens.html"
+    window.location.href="bhagyesh/mens.html"
 }
 
 function womens(){

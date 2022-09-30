@@ -2,7 +2,9 @@
 
 
 
-function clothing(e){
+function clothing(e)
+{   
+    localStorage.setItem("key","mens")
     let sideBar=document.getElementById('sidebar');
     sideBar.innerHTML=null;
 
@@ -13,36 +15,63 @@ function clothing(e){
     p1.innerText="Beachwear";
     p1.addEventListener('click',()=>{
         window.location.href="product_pg.html"
-        let data=JSON.parse(localStorage.getItem("product_data"));
-        console.log("data:",data);
     })
     // p1.onclick=window.location.href="product_pg.html"
     let p2=document.createElement("p");
     p2.innerText="Coats";
+    p2.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+    })
+    
     let p3=document.createElement("p");
     p3.innerText="Jackets";
+    p3.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+    })
     let p4=document.createElement("p");
     p4.innerText="Jeans";
+    p4.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+    })
     let p5=document.createElement("p");
     p5.innerText="Sweaters And knitwear";
-
+    p5.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+    })
     let p6=document.createElement("p");
     p6.innerText="Nightwear and sleepwear";
+    p6.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+    })
     let p7=document.createElement("p");
     p7.innerText="Pants, Slacks and Chinoa";
+    p7.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+    })
     let p8=document.createElement("p");
     p8.innerText="Shirt";
+    p8.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+    })
     let p9=document.createElement("p");
     p9.innerText="Shorts";
+    p9.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+    })
     let p10=document.createElement("p");
     p10.innerText="Suits";
-
-    sideBar.append(tab_name,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10)
-
-
+    p10.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+    })
+    sideBar.append(tab_name,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10);
 }
+// function goToProduct(){
+//     window.location.href="product_pg.html"
+//     let data=JSON.parse(localStorage.getItem("product_data"));
+// }
+function shoes(e)
+{   
 
-function shoes(e){
     let sideBar=document.getElementById('sidebar');
     sideBar.innerHTML=null;
     let tab_name=document.createElement("p");
@@ -50,21 +79,41 @@ function shoes(e){
     let p1=document.createElement("p");
     p1.innerText="Boot";
     p1.addEventListener('click',()=>{
-        window.location.href="product_pg.html"
+        window.location.href="product_pg.html";
+        
     })
     // p1.onclick=window.location.href="product_pg.html"
     let p2=document.createElement("p");
     p2.innerText="Lace-ups";
+    p2.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+        
+    })
     let p3=document.createElement("p");
     p3.innerText="Sandale,Slides and Flip Flops";
+    p3.addEventListener('click',()=>{
+        window.location.href="product_pg.html";
+        
+    })
     let p4=document.createElement("p");
     p4.innerText="Slip-on Shoes";
+    p4.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+        
+    })
     let p5=document.createElement("p");
     p5.innerText="Snekers";
-
+    p5.addEventListener('click',()=>{
+        window.location.href="product_pg.html";
+        
+    })
     let p6=document.createElement("p");
     p6.innerText="New Arrivals in shoes";
-    
+    p6.addEventListener('click',()=>{
+        window.location.href="product_pg.html"
+        
+    })
+
     sideBar.append(tab_name,p1,p2,p3,p4,p5,p6)
 
 
@@ -207,6 +256,7 @@ function brands(e){
 }
 function all_men(e){
     window.location.href="../bhagyesh/product_pg.html"
-
+    localStorage.setItem("key","mens")
 }
 
+ 
