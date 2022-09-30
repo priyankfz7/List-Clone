@@ -9,6 +9,8 @@
 }
 
 #join {
+  background-color: black;
+  color: white;
   margin-bottom: 17px;
   width: 50px;
   margin-right: 15px;
@@ -16,11 +18,11 @@
 
 #down_arrow {
   margin-right: 10px;
+
   position: relative;
 }
 
 #down_navbar {
-  border: 1px solid red;
   height: 50px;
   width: 100%;
   display: flex;
@@ -56,3 +58,204 @@
 #horizontal {
   margin-top: -14px;
 }
+
+#heading {
+  border: 1px solid black;
+  background-color: rgb(230, 228, 228);
+  height: 110px;
+  width: 100%;
+  padding-right: 30px;
+  margin-left: -10px;
+}
+
+#head {
+  margin-left: 110px;
+  margin-top: 35px;
+}
+
+#Filters {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 1000px;
+  width: 250px;
+  margin-left: 130px;
+}
+#upper {
+  display: flex;
+  gap: 55px;
+}
+
+.colour {
+  display: flex;
+}
+
+.hr {
+  width: 200px;
+  margin-left: 0px;
+}
+
+#down_arrow1 {
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+#down_arrow2 {
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+#down_arrow3 {
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+#down_arrow4 {
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+#down_arrow5 {
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+#down_arrow6 {
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+#down_arrow7 {
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 95px;
+}
+#down_arrow8 {
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 85px;
+}
+#down_arrow9 {
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 112px;
+}
+
+#Gender > div {
+  display: flex;
+}
+
+#Category > div {
+  display: flex;
+}
+
+#Sales > div {
+  display: flex;
+}
+
+#Sales > div {
+  display: flex;
+}
+
+#Price > div {
+  display: flex;
+}
+
+#Shipping > div {
+  display: flex;
+}
+#Color > div {
+  display: flex;
+}
+#Material > div {
+  display: flex;
+}
+
+#Designers > div {
+  display: flex;
+}
+
+#Stores > div {
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#body {
+  display: flex;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#prod_div {
+  border: 1px solid grey;
+  height: 500px;
+  width: 250px;
+}
+
+#div1 {
+  display: flex;
+}
+#like {
+  height: 8%;
+  width: 8%;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+#picture {
+  height: 60%;
+  width: 100%;
+}
+
+#link {
+  height: 20px;
+}
+#div2 {
+  height: 30px;
+  width: 120px;
+  display: flex;
+  gap: 15px;
+}
+#p {
+  margin-top: -1px;
+}
+
+#sort {
+  height: 40px;
+  width: 220px;
+  margin-left: 120%;
+  margin-top: 20px;
+}
+#rec {
+  border: 1px solid light grey;
+  background-color: rgb(240, 238, 238);
+  height: 45px;
+  width: 143.2%;
+  display: flex;
+  gap: 15px;
+  padding-right: 30px;
+  margin-left: 40px;
+}
+
+.recom {
+  border: 1px solid grey;
+  display: flex;
+  height: 40px;
+  width: 100px;
+}
+
