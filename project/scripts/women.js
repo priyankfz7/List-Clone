@@ -1,3 +1,7 @@
+import { navbar } from "../components/navbar.js";
+let topnavbar = document.getElementById("navbar");
+topnavbar.innerHTML = navbar();
+
 let Product_data = [
   {
     image:
@@ -271,7 +275,7 @@ Display(Product_data);
 
 let contain = document.getElementById("contain");
 
-let p_search = document.getElementById("search");
+let p_search = document.getElementById("search_item");
 
 p_search.addEventListener("input", function () {
   if (p_search.value === "" || p_search.value === null) {
@@ -312,22 +316,26 @@ let close_btn = document
     popup.id = null;
   });
 
-  const addtocart = document.getElementById('addtocart');
-  addtocart.addEventListener("click",function(){
-      let popup=document.querySelector(".popup");
-      popup.id=null;
-      const image = document.getElementById('pimage').src;
-      const brand = document.getElementById('pbrand').innerText;
-      const name = document.getElementById('pname').innerText;
-      const price = document.getElementById('pprice').innerText;
-      let obj={
-          image,
-          brand,
-          name,
-          price
-  
-      }
-      let cart=JSON.parse(localStorage.getItem("cart")) || [];
-      cart.push(obj);
-      localStorage.setItem("cart",JSON.stringify(cart));
-    })
+const addtocart = document.getElementById("addtocart");
+addtocart.addEventListener("click", function () {
+  let popup = document.querySelector(".popup");
+  popup.id = null;
+  const image = document.getElementById("pimage").src;
+  const brand = document.getElementById("pbrand").innerText;
+  const name = document.getElementById("pname").innerText;
+  const price = document.getElementById("pprice").innerText;
+  let obj = {
+    image,
+    brand,
+    name,
+    price,
+  };
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  cart.push(obj);
+  localStorage.setItem("cart", JSON.stringify(cart));
+  window.location.href = "cart.html";
+});
+
+import { footer } from "../components/footer.js";
+let bottom_footer = document.getElementById("footer");
+bottom_footer.innerHTML = footer();
