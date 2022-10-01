@@ -15,7 +15,7 @@ function navbar() {
       /></a>
     </div>
     <div><a href="#">MEN</a></div>
-    <div><a href="#">WOMEN</a></div>
+    <div><a href="./women.html">WOMEN</a></div>
   </div>
   <div id="search">
     <img
