@@ -5,7 +5,7 @@ let Product_data = [
     name: "Marc Jacobs",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "The Mini Tote Bag - Black",
-    price: "$189",
+    price: "189",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "24S",
     details:
@@ -18,7 +18,7 @@ let Product_data = [
     name: "NIKE",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Air Humara X Jacquemus Ale Brown And Gold Sneakers - Brown",
-    price: "$178.07",
+    price: "178.07",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Cettire",
     details:
@@ -31,7 +31,7 @@ let Product_data = [
     name: "Marc Jacobs",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "The Mini Tote Bag - Natural",
-    price: "$189",
+    price: "189",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "24S",
     details:
@@ -44,7 +44,7 @@ let Product_data = [
     name: "PRADA",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Pr 17ws Rectangular-frame Acetate Sunglasses - Black",
-    price: "$366.62 (20% off)",
+    price: "366.62",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Cettire",
     details:
@@ -57,7 +57,7 @@ let Product_data = [
     name: "ALEXANDER MCQUEEN",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Oversized Leather Sneaker - White",
-    price: "$499 (10% off)",
+    price: "499",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Gilt",
     details:
@@ -70,7 +70,7 @@ let Product_data = [
     name: "NAKED WOLFE",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Spice Faux-leather Knee-thigh Heeled Boots - Black",
-    price: "$325",
+    price: "325",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Tessuti UK",
     details:
@@ -83,7 +83,7 @@ let Product_data = [
     name: "CALVIN KLEIN",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Curve Box Logo T-shirt - Black",
-    price: "$44",
+    price: "440",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Tessuti UK",
     details:
@@ -96,7 +96,7 @@ let Product_data = [
     name: "CONVERSE",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Chuck Taylor All Star Hi-top Sneakers - Black",
-    price: "$65",
+    price: "965",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "The Hut",
     details:
@@ -109,7 +109,7 @@ let Product_data = [
     name: "GUCCI",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "GG Marmont Matelassé Leather Super Mini Bag - Black",
-    price: "$800",
+    price: "800",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Mytheresa",
     details:
@@ -122,7 +122,7 @@ let Product_data = [
     name: "The Snapshot Small",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "The Mini Tote Bag - Black",
-    price: "$377.10 $290 (20% off)",
+    price: "377.10",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Cettire",
     details:
@@ -135,7 +135,7 @@ let Product_data = [
     name: "TBALENCIAGA",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Triple S Clear Sole Sneaker - Pink",
-    price: "$556(50% off)",
+    price: "556",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Rue La La",
     details:
@@ -148,7 +148,7 @@ let Product_data = [
     name: "BURBERRY",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Vintage Check Canvas Sneaker - Natural",
-    price: "$475",
+    price: "475",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "SSENSE",
     details:
@@ -161,7 +161,7 @@ let Product_data = [
     name: "MARC JACOBS",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Women's Black Leather The Glam Shot Cross-body Bag - Black",
-    price: "$216 (15% off)",
+    price: "216",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Cettire",
     details:
@@ -174,7 +174,7 @@ let Product_data = [
     name: "GABBANA",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Calendar-print Poplin Corset - Multicolor",
-    price: "$533",
+    price: "533",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Gabbana",
     details:
@@ -187,7 +187,7 @@ let Product_data = [
     name: "GUCCI",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Dionysus gg Supreme Super Mini Bag - Natural",
-    price: "$726",
+    price: "726",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Mytheresa",
     details:
@@ -200,7 +200,7 @@ let Product_data = [
     name: "GUCCI",
     like: "https://cdn3.iconfinder.com/data/icons/twitter-20/512/166_Heart_Love_Like_Twitter-512.png",
     des: "Dionysus gg Supreme Super Mini Bag - Natural",
-    price: "$726",
+    price: "726",
     link: "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-link-thin.png",
     p: "Mytheresa",
     details:
@@ -209,15 +209,13 @@ let Product_data = [
   },
 ];
 
-//console.log(data);
-
-localStorage.setItem("product_data", JSON.stringify(Product_data));
+localStorage.setItem("Product_data", JSON.stringify(Product_data));
 
 let container = document.getElementById("container");
 
-function Display(data) {
-  //   container.innerHTML = null;
-  data.forEach(function (ele) {
+function Display(P_data) {
+  container.innerHTML = null;
+  P_data.forEach(function (ele) {
     let div = document.createElement("div");
     div.id = "prod_div";
 
@@ -238,7 +236,7 @@ function Display(data) {
     let des = document.createElement("p");
     des.innerText = ele.des;
     let price = document.createElement("h4");
-    price.innerHTML = ele.price;
+    price.innerHTML = `$${ele.price}`;
 
     let div2 = document.createElement("div");
     div2.id = "div2";
@@ -255,7 +253,17 @@ function Display(data) {
     div.append(img, div1, des, price, div2);
     container.append(div);
     div.addEventListener("click", function () {
-      Detail(ele);
+      let pop = document.querySelector(".popup");
+      let img = document.querySelector("#pop > img");
+      img.src = ele.image;
+      const brand = document.getElementById("pbrand");
+      brand.innerText = ele.name;
+      const name = document.getElementById("pname");
+      name.innerText = ele.des;
+      const price = document.getElementById("pprice");
+      price.innerText = `$${ele.price}`;
+
+      pop.id = "popup_active";
     });
   });
 }
@@ -263,49 +271,63 @@ Display(Product_data);
 
 let contain = document.getElementById("contain");
 
-function Detail(el) {
-  let div_p = document.createElement("div");
+let p_search = document.getElementById("search");
 
-  let img1 = document.createElement("img");
-  img1.src = el.image;
+p_search.addEventListener("input", function () {
+  if (p_search.value === "" || p_search.value === null) {
+    Display(Product_data);
+  } else {
+    let filteredProd = Product_data.filter(function (el) {
+      return el.name
+        .toLocaleLowerCase()
+        .includes(p_search.value.toLocaleLowerCase());
+    });
+    Display(filteredProd);
+  }
+});
 
-  let div1_p = document.createElement("div");
-  div1_p.id = "div1";
+let p_sort = document.getElementById("sort");
+p_sort.addEventListener("change", function () {
+  if (p_sort.value === "") {
+    Display(Product_data);
+  } else {
+    let Product_data_copy = Product_data.map(function (el) {
+      return el;
+    });
+    let sorted_data = Product_data_copy.sort(function (a, b) {
+      if (p_sort.value === "lowtohigh") {
+        return a.price - b.price;
+      } else if (p_sort.value === "hightolow") {
+        return b.price - a.price;
+      }
+    });
+    Display(sorted_data);
+  }
+});
 
-  let div = document.createElement("div");
-  div.id = "prod_div";
+let close_btn = document
+  .querySelector(".close-button")
+  .addEventListener("click", function () {
+    let popup = document.querySelector(".popup");
+    popup.id = null;
+  });
 
-  let img = document.createElement("img");
-  img.src = ele.image;
-  img.id = "picture";
-
-  let div1 = document.createElement("div");
-  div1.id = "div1";
-  let name = document.createElement("h4");
-  name.innerText = ele.name;
-  name.id = "name";
-  let like = document.createElement("img");
-  like.src = ele.like;
-  like.id = "like";
-  div1.append(name, like);
-
-  let des = document.createElement("p");
-  des.innerText = ele.des;
-  let price = document.createElement("h4");
-  price.innerHTML = ele.price;
-
-  let div2 = document.createElement("div");
-  div2.id = "div2";
-
-  let link = document.createElement("img");
-  link.src = ele.link;
-  link.id = "link";
-
-  let p = document.createElement("p");
-  p.innerText = ele.p;
-  p.id = "p";
-  div2.append(link, p);
-
-  div_p.append(img1, div1_p, des, price, div2);
-  contain.append(div_p);
-}
+  const addtocart = document.getElementById('addtocart');
+  addtocart.addEventListener("click",function(){
+      let popup=document.querySelector(".popup");
+      popup.id=null;
+      const image = document.getElementById('pimage').src;
+      const brand = document.getElementById('pbrand').innerText;
+      const name = document.getElementById('pname').innerText;
+      const price = document.getElementById('pprice').innerText;
+      let obj={
+          image,
+          brand,
+          name,
+          price
+  
+      }
+      let cart=JSON.parse(localStorage.getItem("cart")) || [];
+      cart.push(obj);
+      localStorage.setItem("cart",JSON.stringify(cart));
+    })
