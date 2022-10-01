@@ -129,3 +129,4 @@ console.log(e);
 function placeorder(){
     alert("Your order is placed,we will send you the boxses soon!")
 }
+
