@@ -6,9 +6,9 @@ body{
 #banner img{
     height: 520px;
     width: 100%;
-    border-top: 1px solid black;
+    
     border-bottom: 1px solid black;
-    margin-top: 10px;
+  
 }
 #banner{
   margin-bottom: 70px;

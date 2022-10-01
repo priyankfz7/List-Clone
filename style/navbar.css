@@ -1,5 +1,4 @@
 #navbar_top{
-   
     display: flex;
     justify-content: end;
     align-items: center;
@@ -9,8 +8,6 @@
     gap: 1vw;
     margin-right: 2vw;
     margin-top: 10px;
-
-   
 }
 #navbar_top>div{
  cursor: pointer;
@@ -27,12 +24,9 @@
 #navbar_top a{
   text-decoration: none;
   color: black;
-
 }
-
 #navbar_top a:hover{
   text-decoration: underline;
-
 }
 #main_nav{
     display: flex;
@@ -49,17 +43,14 @@
     font-family: sans-serif;
     justify-content: space-around;
     align-items: center;
-    
 }
 #logo a{
     text-decoration: none;
     color: black;
 }
 #logo img{
-    
    width: 100px;
    height: 35px;
-
 }
 #search{
     display: flex;
@@ -68,22 +59,25 @@
     height: 40px;
     width: 78%;
     margin-right: 2%;
-   
 }
 #search input{
     width: 95%;
     height: 90%;
     border: none;
     margin-right: 3%;
-    
 }
 #search input:focus{
  outline: none;
-    
 }
 #search_button{
     height: 70%;
     margin-right: 0.7%;
     cursor: pointer;
     margin-left: 5px;
+}
+#menu_cart_image{
+    height: 35px;
+    width:40px;
+    margin-right: 15px;
+    margin-left: -10px;
 }
