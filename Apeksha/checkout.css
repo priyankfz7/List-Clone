@@ -30,7 +30,6 @@ body {
     height: 50px;
     display: flex;
 }
-
  #amazone-pay{
     height: 30px;
     width: 100%;
@@ -85,8 +84,6 @@ body {
     background: #fff;
     border: 2px solid #ddd;
     border-radius: 4px;
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
   .form-class select{
     width: 96%;
@@ -121,7 +118,6 @@ body {
   .form-class p {
     display: block;
     margin-bottom: 4px;
-    margin-top: 10px;
     color: #1f1f1f;
     font: 400 14px Open Sans, sans-serif;
   }
@@ -192,11 +188,11 @@ body {
   }
   .div2 .total p {
     font: 400 14px Open Sans, sans-serif;
-    margin-top: 3px;
+    margin-top: -5px;
   }
   .div2 .estimated p {
     font: 400 14px Open Sans, sans-serif;
-    margin-top: 5px;
+    margin-top: -5px;
   }
   .discount {
     font: 400 14px Open Sans, sans-serif;
