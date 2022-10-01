@@ -124,7 +124,7 @@ body{
     height:520px;
     border-top: 1px solid black;
     display: flex;
-    margin-top: 40px;
+    margin-top: 50px;
   }
   #bhb_left{
     border: 0px solid red;
@@ -247,3 +247,76 @@ margin-bottom: -4px;
 
 }
 /* ************* */
+
+.div_item img{
+  height: 270px;
+  
+  width: 350px;
+margin-left: 70px;
+margin-top: 26px;
+  margin-bottom: -4px;
+ 
+}
+
+
+@supports(display: flex) {
+
+.flex-container {
+  display: flex;
+}
+
+ .main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* border: 2px solid orange;
+ padding-bottom: -19px; */
+}
+ 
+.items {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  border: 1px solid black;
+ 
+
+  
+}
+.div_item {
+  height:365px ;
+  width: 416px;
+  display: inline-block;
+  min-height: 365px;
+  min-width: 416px;
+  border-left: 1px solid black;
+
+ 
+}
+}
+.jmd108{
+font-size: 22px;
+margin-left: 30px;
+}
+.big_brands{
+font-size: 70px;
+text-align: center;
+display: table-cell;
+vertical-align: bottom;
+text-align: center;
+padding-left: 20px;
+padding-top: 20px;
+line-height: 60px;
+}
+.big_brands_div{
+background-color: rgb(245,244,242);
+margin-right: -2px;
+margin-bottom: -3px;
+}
+/* for space between secont and third carazol */
+#spaceonly{
+  width: 100%;
+  height: 110px;
+}
