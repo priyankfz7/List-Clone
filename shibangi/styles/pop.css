@@ -1,0 +1,80 @@
+.popup {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: white;
+  width: 100vw;
+  margin: auto;
+  height: 100vh;
+  padding: 60px;
+  display: none;
+  align-content: center;
+}
+#pop {
+  display: flex;
+  min-height: 60%;
+  width: 60%;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 30px;
+
+  margin: auto;
+}
+#pop > img {
+  width: 45%;
+  align-self: auto;
+  object-fit: contain;
+}
+#pop h3 {
+  font-size: 30px;
+  font-weight: 50;
+}
+#pop button {
+  display: block;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+  border: 0px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+#pop > div > * {
+  margin-bottom: 30px;
+}
+#pop > div > div {
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 50px;
+}
+.close-button {
+  font-size: 60px;
+  padding: 0px 10px 0px 10px;
+
+  cursor: pointer;
+}
+.close-button:hover {
+  background-color: gainsboro;
+  border-radius: 100%;
+}
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #17b3ab7c;
+  transition: 0.5px;
+  padding: 20px;
+}
+.container#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+#popup_active {
+  display: block;
+}
+body {
+  position: relative;
+}
