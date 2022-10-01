@@ -1,4 +1,4 @@
-function navbar(){
+function navbar() {
   return `  <div id="navbar_top">
   <div>IN-US$</div>
   <div>Help</div>
@@ -23,9 +23,9 @@ function navbar(){
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png"
       alt="search button"
     />
-    <input type="text" placeholder='SEARCHING(E.G. "ACNE JEANS")' />
+    <input type="text" placeholder='SEARCHING(E.G. "ACNE JEANS")' id="search_item" />
   </div>
   <div id="menu_cart"> <a href="cart.html"> <img id="menu_cart_image" src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png" /> </a></div>
-</div>`
+</div>`;
 }
-export {navbar};
+export { navbar };
