@@ -2,7 +2,7 @@ function navbar() {
   return `  <div id="navbar_top">
   <div>IN-US$</div>
   <div>Help</div>
-  <div><a href="#">Sign in</a></div>
+  <div><a href="../project/sign_up1.html">Sign in</a></div>
   <div><a href="#">Join</a></div>
 </div>
 <div id="main_nav">
