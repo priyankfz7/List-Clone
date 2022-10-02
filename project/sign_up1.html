@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signup construct</title>
 
-    <style>    .name{
+    <style>
+    .name{
         margin-bottom: 15;
     }
   
@@ -144,7 +145,7 @@
 }</style>
 </head>
 <body>
-    <form>
+    
         <div class="log_div">
         
           <h1 id="log">Sign up</h1>
@@ -160,37 +161,40 @@
             <p id="new1">  Have an account?</p>
       
             
-            <button id="sign_btn1" ></button>
-            <a id="sign_up1" href="./project/logIn.html">Log in</a></button>
+            <button id="sign_btn1" >
+            <a id="sign_up1" href="logIn.html">Log in</a></button>
         </div>
           <p id="this">By signing up, you agree to our Privacy Policy, Cookie Policy and Terms of Use .</p>
         </div>
-     </form>
+    
 
 </body>
 </html>
 
 <script>
-    let form= document.querySelector("form");
-    let signupLS=JSON.parse(localStorage.getItem("signup"))||[];
-    
-    form.addEventListener("submit",function(e){
-        e.preventDefault();
+    const button = document.getElementById('log_btn');
+    button.addEventListener("click",function(){
+        console.log(1)
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('pass').value;
+        
         let obj={
-            name:form.name.value,
-            email:form.email.value,
-            password:form.pass.value,
+            name,
+            email,
+            password,
         }
-        if(obj.name==" " || obj.email==" " || obj.pass==" "){
+        if(obj.name=="" || obj.email=="" || obj.pass==""){
             alert("feild empty");
             return;
         }
         else{
+            localStorage.setItem("signup",JSON.stringify(obj))
             alert("Sign up successully");
-            window.location.href="./project/logIn.html";
+            window.location.href="logIn.html";
         }
-        signupLS.push(obj);
-        localStorage.setItem("signup",JSON.stringify(signupLS));
+    
+        
     
     })
     

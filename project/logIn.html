@@ -135,28 +135,25 @@
 </html>
 <script>
     let form=document.querySelector("form");
-    let signupLS=JSON.parse(localStorage.getItem("signup"))||[];
+    let signup=JSON.parse(localStorage.getItem("signup"))|| {};
     
   
     form.addEventListener("submit",function(ele){
         ele.preventDefault();
-        if(signupLS.length===0){
-            alert("No user till Now");
-            return;
-        }
+        
         let obj={
             email:form.email.value,
             password:form.pass.value,
         }
              let flag=true;
-        signupLS.forEach(function(ele){
-            if(ele.email===obj.email && ele.pass ===obj.pass){
+        
+            if(signup.email===obj.email && signup.pass ===signup.pass){
                 flag=false;
-                localStorage.setItem("login",JSON.stringify(ele));
+                
                 alert("Log In Successfull");
-                window.location.href="../index.html";
+                window.location.href="index.html";
             }
-        })
+        
         if(flag===true){
           alert("Hello! User Does Not Exist" + "\n" + "Or" + "\n" +   "Password Or Email Is Incorrect!");
         }
