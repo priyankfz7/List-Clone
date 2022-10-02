@@ -14,7 +14,7 @@ function navbar() {
           alt=""
       /></a>
     </div>
-    <div><a href="#">MEN</a></div>
+    <div><a href="mens.html">MEN</a></div>
     <div><a href="./women.html">WOMEN</a></div>
   </div>
   <div id="search">

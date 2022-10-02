@@ -263,3 +263,6 @@ p{
 .cart_item div{
     width: 50%;
 }
+.cart_item img{
+    width:30%
+}
