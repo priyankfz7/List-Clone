@@ -7,6 +7,8 @@
     <title>lyst/mens_pg</title>
     <script src="https://kit.fontawesome.com/73b65dc76b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style/mens.css"/>
+    <link rel="stylesheet" href="../project/style/navbar.css"/>
+    <link rel="stylesheet" href="style\footer.css" />
 </head>
 <body onload="clothing()">
     <div id="navbar"></div>
@@ -26,6 +28,7 @@
         <div></div>
     </div>
     
+    <div id="footer"></div>
 </body>
 </html>
 <script type="module">
@@ -35,6 +38,12 @@
       navbar_div.innerHTML=navbar()
 
       import {data} from "./data_obj/data.js"
+
+
+      
+      import {footer} from"../project/components/footer.js"
+let bottom_footer=document.getElementById("footer");
+bottom_footer.innerHTML=footer();
       
 </script>
 <script src="./scripts/mens.js">

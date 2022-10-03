@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/productpage.css">
     <link rel="stylesheet" href="./style/mens.css">
     <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="style\footer.css" />
     <script src="https://kit.fontawesome.com/73b65dc76b.js" crossorigin="anonymous"></script>
     
     <style>
@@ -162,6 +163,7 @@
             <span>Just 1 Left</span>
         </div>
     </div>
+    <div id="footer"></div>
 
 </body>
 
@@ -175,6 +177,11 @@
       navbar_div.innerHTML=navbar()
 
       import {data} from "./data_obj/data.js"
+
+      
+      import {footer} from"../project/components/footer.js"
+let bottom_footer=document.getElementById("footer");
+bottom_footer.innerHTML=footer();
       
 </script>
 <script src="./scripts/productpage.js" type="module"></script>

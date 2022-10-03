@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lyst/product_pg</title>
     <script src="https://kit.fontawesome.com/73b65dc76b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style/productpage.css"/>
+    <link rel="stylesheet" href="../project/style/navbar.css"/>
     <link rel="stylesheet" href="../project/style/product.css"/>
+    <link rel="stylesheet" href="style\footer.css" />
 </head>
 <body>
     <div id="navbar"></div>
@@ -190,6 +191,7 @@
       </div>
       <div id="contain"></div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>
 <script src="./scripts/product.js"></script>
@@ -199,6 +201,11 @@
    // console.log(navbar)
     let navbar_div=document.getElementById("navbar");
       navbar_div.innerHTML=navbar()
+
+      
+      import {footer} from"../project/components/footer.js"
+let bottom_footer=document.getElementById("footer");
+bottom_footer.innerHTML=footer();
 
       import {data} from "./data_obj/data.js"
     //  console.log(data)

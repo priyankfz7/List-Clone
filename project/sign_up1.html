@@ -5,29 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signup construct</title>
+    <link rel="stylesheet" href="../project/style/navbar.css"/>
+    <link rel="stylesheet" href="style\footer.css" />
 
     <style>
     .name{
         margin-bottom: 15;
     }
   
-    .log_div{
+    #navbar+.log_div{
     /* border: 1px solid black; */
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
- width: 400px;  
- height: 550px; 
+ width: 50%;  
+ height:50 vh; 
  margin: auto;
- margin-top: 55;
+ margin-top: 55px;
  background-color: aliceblue;
- margin-top: 150;
- margin-bottom: 50;
+ margin-bottom: 50px;
 }
    
 #log{
     position: relative;
-    top: 15;
     
-    margin-left: 30;
     font-family: sans-serif; 
     font-weight: 100;
 }
@@ -145,7 +144,7 @@
 }</style>
 </head>
 <body>
-    
+    <div id="navbar"></div>
         <div class="log_div">
         
           <h1 id="log">Sign up</h1>
@@ -162,10 +161,12 @@
       
             
             <button id="sign_btn1" >
-            <a id="sign_up1" href="logIn.html">Log in</a></button>
+            <a id="sign_up1" href="./logIn.html">Log in</a></button>
         </div>
           <p id="this">By signing up, you agree to our Privacy Policy, Cookie Policy and Terms of Use .</p>
         </div>
+
+        <div id="footer"></div>
     
 
 </body>
@@ -199,3 +200,17 @@
     })
     
     </script>
+
+    
+<script type="module">
+    import {navbar} from "./components/navbar.js";
+    console.log(navbar)
+    let navbar_div=document.getElementById("navbar");
+      navbar_div.innerHTML=navbar()
+
+      import {footer} from"../project/components/footer.js"
+let bottom_footer=document.getElementById("footer");
+bottom_footer.innerHTML=footer();
+      
+      
+</script>
