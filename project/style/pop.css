@@ -14,14 +14,14 @@
   display: flex;
   min-height: 60%;
   width: 60%;
-  justify-content: space-between;
+  justify-content: space-around;
   border: 1px solid black;
   padding: 30px;
 
   margin: auto;
 }
 #pop > img {
-  width: 45%;
+  width: 25%;
   align-self: auto;
   object-fit: contain;
 }
