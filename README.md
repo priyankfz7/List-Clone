@@ -8,7 +8,7 @@ Unit-3-project Masai school project
 
 In this project we have tried to clone frontend of Lyst. Cart functionality has been added using browser's localstorage and Redux. Project design is responsive for all screen sizes. This project is an effort to implement learning at masai and improve our understanding of the React.
 
-Here is the link of our website live on netlify: https://lyst-clone.netlify.app/
+Here is the link of our website live on netlify: delightful-meringue-3aac9b.netlify.app/
 
 HTML: 18%, CSS: 6.3%, JavaScript:78%
 
